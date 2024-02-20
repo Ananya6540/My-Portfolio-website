@@ -409,14 +409,7 @@ a{
     align-items: self-start;
    }
 }
-@media(max-width:800px){
-    .city{
-        display: flex;
-       justify-content: flex-start;
-       margin-left: 0;
-    }
-}
-@media(max-width:600px){
+@media(max-width:1000px){
     .city{
         display: flex;
        justify-content: flex-start;
@@ -424,6 +417,13 @@ a{
     }
 }
 @media(max-width:800px){
+    .city{
+        display: flex;
+       justify-content: flex-start;
+       margin-left: 0;
+    }
+}
+@media(max-width:1000px){
     .icons{
         display: flex;
        /* justify-content: fl;
@@ -431,7 +431,7 @@ a{
        margin-left: 0;
     }
 }
-@media(max-width:600px){
+@media(max-width:650px){
     .icons{
         display: flex;
        /* justify-content: center;
@@ -439,7 +439,7 @@ a{
        margin-left: 0;
     }
 }
-@media(max-width:800px){
+@media(max-width:1000px){
     #fp1{
         /* display: flex;
        justify-content: flex-start; */
@@ -451,7 +451,7 @@ a{
        margin-left: 0;
     }
 }
-@media(max-width:800px){
+@media(max-width:1000px){
     .email{
         display: flex;
        justify-content: flex-start;
@@ -465,7 +465,7 @@ a{
        margin-left:10rem;
     }
 }
-@media(max-width:800px){
+@media(max-width:1000px){
     #para{
         display: flex;
        justify-content: flex-start;
@@ -473,7 +473,7 @@ a{
        
     }
 }
-@media(max-width:600px){
+@media(max-width:650px){
     #para{
         display: flex;
        justify-content: flex-start;
