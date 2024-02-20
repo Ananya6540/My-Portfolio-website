@@ -12,8 +12,7 @@
 }
 #wrapper{
     height: 100px;
-    overflow-y:auto;
-     overflow-x: hidden;
+  
    
 }
 .logo{
@@ -246,7 +245,7 @@ a{
  }
  .email{
     margin-left:700px;
-    font-size:20px;
+    font-size:30px;
  }
  .city{
     margin-left:630px;
@@ -303,7 +302,7 @@ a{
     display: flex;
     /* align-items: center;
     justify-content: center; */
-    margin-left:700px;
+    margin-left:750px;
 }
 @media(max-width:1000px){
     .navbar{
