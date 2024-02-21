@@ -391,13 +391,18 @@ a{
 }
 @media(max-width:1000px){
     .Con{
-        display: inline;
+        display: flex;
+        justify-content: center;
+        align-items: center;
         
     }
 }
 @media(max-width:650px){
     .Con{
-        display: inline;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
         
       
     }
@@ -411,72 +416,77 @@ a{
 @media(max-width:1000px){
     .city{
         display: flex;
-       justify-content: flex-start;
+        justify-content: center;
+        align-items: center;
        margin-left: 0;
     }
 }
 @media(max-width:800px){
     .city{
         display: flex;
-       justify-content: flex-start;
+        justify-content: center;
+       align-items: center;
        margin-left: 0;
     }
 }
 @media(max-width:1000px){
     .icons{
         display: flex;
-       /* justify-content: fl;
-        */
+        /* justify-content: center;
+       align-items: center; */
        margin-left: 0;
     }
 }
 @media(max-width:650px){
     .icons{
         display: flex;
-       /* justify-content: center;
+        /* justify-content: center;
        align-items: center; */
        margin-left: 0;
     }
 }
 @media(max-width:1000px){
     #fp1{
-        /* display: flex;
-       justify-content: flex-start; */
+       display : flex;
        margin-left: 0;
     }
 }
 @media(max-width:600px){
     #fp1{
        margin-left: 0;
-    }
+      display:flex;
+}
 }
 @media(max-width:1000px){
     .email{
         display: flex;
-       justify-content: flex-start;
-       margin-left: 10rem;
+       justify-content: center;
+       align-items: center;
+        margin-left: 5rem; 
     }
 }
 @media(max-width:600px){
     .email{
         display: flex;
-       justify-content: flex-start;
-       margin-left:10rem;
+        justify-content: center;
+       align-items: center;
+        margin-left:5rem; 
     }
 }
 @media(max-width:1000px){
     #para{
         display: flex;
-       justify-content: flex-start;
-       margin-left: 10rem;
+        justify-content: center;
+        align-items: center;
+       /* margin-left: 10rem; */
        
     }
 }
 @media(max-width:650px){
     #para{
-        display: flex;
-       justify-content: flex-start;
-       margin-left: 10rem;
+        display: flex; justify-content: center;
+        align-items: center; justify-content: flex-start;
+       /* margin-left: 10rem; */
     
     }
 }
